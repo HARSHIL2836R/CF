@@ -9,6 +9,9 @@ using namespace std;
 void solve(){
     in(r);
     loop(r){
+        in(n);
+        map<ll, ll> values;//vertex to value
+        map<ll, ll*> parent;//parent to vertex
         
     }
 }
