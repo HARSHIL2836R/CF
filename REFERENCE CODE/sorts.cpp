@@ -111,22 +111,7 @@ void doubleBubble(char* arr[], int n)
     }
 }
 
-//BINARY SORT
-//Binary search searches a sorted array
-bool BSearch(int x, int A[],int start, int size){
-    //x:target value to search
-    //range to search: A[start...start+size-1]
-    //precondition: size >0 and the array must be sorted
-    
-    cout<<"Start\t"<<start<<endl<<"Size\t"<<size<<endl;
 
-    if (size==1){return (A[start]==x);}
-    int half=size/2;
-    if (x<A[start+half]) 
-        return BSearch(x,A,start,half);
-    else
-        return BSearch(x,A,start+half,size-half);
-}
 
 //MERGE SORT
 void merge(int U[], int uLength, int V[], int vLength, int S[])
